@@ -53,24 +53,6 @@ export interface LanguageContent {
       sunday: { morning: string; afternoon: string; evening: string };
     };
   };
-  accommodation: {
-    title: string;
-    subtitle: string;
-    amenities: {
-      dormitories: { title: string; description: string };
-      meals: { title: string; description: string };
-      supervision: { title: string; description: string };
-      facilities: { title: string; description: string };
-      bathrooms: { title: string; description: string };
-      home: { title: string; description: string };
-    };
-    campusLife: {
-      title: string;
-      university: { title: string; description: string };
-      dining: { title: string; description: string };
-      safety: { title: string; description: string };
-    };
-  };
   pricing: {
     title: string;
     subtitle: string;
@@ -129,14 +111,8 @@ export interface LanguageContent {
   };
   footer: {
     description: string;
-    quickLinks: string[];
-    support: string[];
     contactTitle: string;
-    address: string[];
-    officeHours: string;
-    officeTime: string[];
-    madeWith: string;
-    copyright: string;
-    links: string[];
+    email: string;
+    qrCode: string;
   };
 }

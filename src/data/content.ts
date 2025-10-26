@@ -40,7 +40,7 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
       excursionsTitle: "Amazing Excursions",
       excursions: {
         whistler: { title: "Whistler Adventure", description: "Scenic mountain resort with outdoor activities and stunning views" },
-        vancouver: { title: "Vancouver Highlights", description: "Explore downtown, Chinatown, and the famous Granville Island Market" },
+        vancouver: { title: "Vancouver Highlights", description: "Explore downtown, Chinatown, and famous Granville Island Market" },
         capilano: { title: "Capilano Suspension Bridge", description: "Walk among the treetops on this thrilling suspension bridge" },
         cultural: { title: "Cultural Experiences", description: "Attend local festivals, concerts, and cultural events" }
       },
@@ -54,29 +54,11 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
         sunday: { morning: "Free Time", afternoon: "Stanley Park Visit", evening: "Reflection & Journaling" }
       }
     },
-    accommodation: {
-      title: "Your Home at UBC",
-      subtitle: "Experience university life firsthand by living on one of Canada's most beautiful campuses. Our accommodation provides comfort, safety, and the perfect environment for making lifelong friendships.",
-      amenities: {
-        dormitories: { title: "Comfortable Dormitories", description: "Modern, clean rooms with all essential furniture and study areas" },
-        meals: { title: "Nutritious Meals", description: "Three delicious meals daily at university dining halls with diverse options" },
-        supervision: { title: "24/7 Supervision", description: "Professional residential staff ensuring safety and support around the clock" },
-        facilities: { title: "Modern Facilities", description: "High-speed WiFi, laundry facilities, and recreational common areas" },
-        bathrooms: { title: "Private Bathrooms", description: "Clean, well-maintained bathroom facilities for your comfort and privacy" },
-        home: { title: "Home Away from Home", description: "Warm, welcoming environment with fellow Taiwanese students" }
-      },
-      campusLife: {
-        title: "Experience Campus Life",
-        university: { title: "University Dormitories", description: "Live in the same residences as UBC students, experiencing authentic university life." },
-        dining: { title: "Dining Hall Experience", description: "Enjoy meals with students from around the world in our welcoming dining facilities." },
-        safety: { title: "Safe & Secure", description: "Professional staff and security measures ensure your safety and peace of mind." }
-      }
-    },
     pricing: {
       title: "Investment in Your Future",
       subtitle: "Our comprehensive program provides exceptional value with everything included for an unforgettable Canadian summer experience.",
-      programTitle: "24 Days @ UBC University",
-      dates: "July 6 - July 29, 2024",
+      programTitle: "30 Days @ UBC University",
+      dates: "July 4 - August 2, 2026",
       earlyBird: "Early Bird: Save $500 - Register before March 1st!",
       included: "What's Included",
       notIncluded: "Not Included",
@@ -155,15 +137,9 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
     },
     footer: {
       description: "Creating unforgettable summer experiences for Taiwanese students at one of Canada's most prestigious universities for over 15 years.",
-      quickLinks: ["About the Program", "Academic Curriculum", "Activities & Excursions", "Accommodation", "Pricing & Packages", "Application Process"],
-      support: ["Frequently Asked Questions", "Visa Support", "Travel Information", "Health & Safety", "Emergency Contacts", "Parent Portal"],
       contactTitle: "Contact Information",
-      address: ["University of British Columbia", "2329 West Mall, Vancouver, BC", "Canada V6T 1Z4"],
-      officeHours: "Office Hours",
-      officeTime: ["Monday - Friday: 9:00 AM - 6:00 PM (PST)", "Saturday: 10:00 AM - 4:00 PM (PST)"],
-      madeWith: "Made with love for future global citizens",
-      copyright: "© 2024 UBC Summer Camp. All rights reserved.",
-      links: ["Privacy Policy", "Terms of Service", "Refund Policy"]
+      email: "info@feabroad.com",
+      qrCode: "line_code.png"
     }
   },
   zh: {
@@ -172,7 +148,7 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
       subtitle: "與來自台灣的學生一起，在加拿大頂尖大學展開學習、冒險和友誼的精彩旅程。",
       enrollButton: "立即報名",
       learnMoreButton: "了解更多",
-      dates: "7月6日 - 7月29日",
+      dates: "7月4日 - 8月2日",
       ages: "9-17歲",
       location: "溫哥華，卑詩省"
     },
@@ -188,7 +164,7 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
         university: { title: "大學體驗", description: "在加拿大最美麗的校園之一生活和學習" }
       },
       details: {
-        dates: { title: "營隊日期", date: "2024年7月6日 - 7月29日", duration: "精彩的24天" },
+        dates: { title: "營隊日期", date: "2026年7月4日 - 8月2日", duration: "精彩的30天" },
         ages: { title: "年齡範圍", range: "9-17歲", note: "歡迎所有程度學生" },
         location: { title: "地點", place: "UBC校園，溫哥華", region: "美麗的卑詩省" }
       }
@@ -219,29 +195,11 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
         sunday: { morning: "自由時間", afternoon: "史丹利公園參觀", evening: "反思與日記" }
       }
     },
-    accommodation: {
-      title: "你在UBC的家",
-      subtitle: "在加拿大最美麗的校園之一親身體驗大學生活。我們的住宿提供舒適、安全，以及建立終生友誼的完美環境。",
-      amenities: {
-        dormitories: { title: "舒適宿舍", description: "現代化、乾淨的房間，配備所有必需家具和學習區域" },
-        meals: { title: "營養餐點", description: "每日三餐在大學餐廳享用美味多樣的餐點" },
-        supervision: { title: "24小時監護", description: "專業住宿工作人員全天候確保安全和支持" },
-        facilities: { title: "現代化設施", description: "高速WiFi、洗衣設施和娛樂公共區域" },
-        bathrooms: { title: "私人浴室", description: "乾淨、維護良好的浴室設施，確保您的舒適和隱私" },
-        home: { title: "第二個家", description: "與台灣同學一起享受溫暖、歡迎的環境" }
-      },
-      campusLife: {
-        title: "體驗校園生活",
-        university: { title: "大學宿舍", description: "住在與UBC學生相同的宿舍，體驗真正的大學生活。" },
-        dining: { title: "餐廳體驗", description: "在我們溫馨的餐廳設施中與來自世界各地的學生一起用餐。" },
-        safety: { title: "安全可靠", description: "專業工作人員和安全措施確保您的安全和安心。" }
-      }
-    },
     pricing: {
       title: "對未來的投資",
       subtitle: "我們的綜合課程提供卓越價值，包含難忘加拿大夏季體驗的所有內容。",
-      programTitle: "UBC大學24天課程",
-      dates: "2024年7月6日 - 7月29日",
+      programTitle: "UBC大學30天課程",
+      dates: "2026年7月4日 - 8月2日",
       earlyBird: "早鳥優惠：3月1日前報名可省$500！",
       included: "包含項目",
       notIncluded: "不包含項目",
@@ -320,15 +278,9 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
     },
     footer: {
       description: "15年來為台灣學生在加拿大最負盛名的大學之一創造難忘的夏季體驗。",
-      quickLinks: ["關於課程", "學術課程", "活動與遊覽", "住宿", "價格與套組", "申請流程"],
-      support: ["常見問題", "簽證支援", "旅遊資訊", "健康與安全", "緊急聯絡", "家長入口"],
       contactTitle: "聯絡資訊",
-      address: ["英屬哥倫比亞大學", "2329 West Mall, Vancouver, BC", "Canada V6T 1Z4"],
-      officeHours: "辦公時間",
-      officeTime: ["週一至週五：上午9:00 - 下午6:00 (PST)", "週六：上午10:00 - 下午4:00 (PST)"],
-      madeWith: "用愛為未來的全球公民製作",
-      copyright: "© 2024 UBC夏令營。版權所有。",
-      links: ["隱私政策", "服務條款", "退款政策"]
+      email: "info@feabroad.com",
+      qrCode: "line_code.png"
     }
   }
 };

@@ -24,17 +24,17 @@ const HomePage: React.FC<HomePageProps> = ({ language }) => {
           title: "UBC Summer Camp",
           description: "Experience university life at one of Canada's top universities with our comprehensive summer program.",
           features: ["University Campus Living", "15 Hours English Classes/Week", "Outdoor Adventures", "Cultural Immersion"],
-          duration: "24 Days",
+          duration: "30 Days",
           ages: "Ages 9-17",
-          price: "From CAD $8,999"
+          price: "NTD $210,000"
         },
         bodwell: {
           title: "Bodwell High School Program",
           description: "Study at a prestigious boarding school with state-of-the-art facilities and personalized care.",
           features: ["Boarding School Experience", "Academic English Program", "Waterfront Campus", "24/7 Supervision"],
-          duration: "2-4 Weeks",
+          duration: "24 Days",
           ages: "Ages 9-17", 
-          price: "From CAD $4,550"
+          price: "NTD $140,000"
         }
       },
       why: {
@@ -67,17 +67,17 @@ const HomePage: React.FC<HomePageProps> = ({ language }) => {
           title: "UBC夏令營",
           description: "在加拿大頂尖大學之一體驗大學生活，參加我們的綜合夏季課程。",
           features: ["大學校園生活", "每週15小時英語課程", "戶外冒險", "文化沉浸"],
-          duration: "24天",
+          duration: "30天",
           ages: "9-17歲",
-          price: "從 CAD $8,999起"
+          price: "NTD $210,000"
         },
         bodwell: {
           title: "Bodwell高中課程",
           description: "在擁有最先進設施和個人化照護的著名寄宿學校學習。",
           features: ["寄宿學校體驗", "學術英語課程", "海濱校園", "24小時監護"],
-          duration: "2-4週",
+          duration: "24天",
           ages: "9-17歲",
-          price: "從 CAD $4,550起"
+          price: "NTD $140,000"
         }
       },
       why: {
