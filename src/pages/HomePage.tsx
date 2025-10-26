@@ -32,7 +32,7 @@ const HomePage: React.FC<HomePageProps> = ({ language }) => {
           title: "Bodwell High School Program",
           description: "Study at a prestigious boarding school with state-of-the-art facilities and personalized care.",
           features: ["Boarding School Experience", "Academic English Program", "Waterfront Campus", "24/7 Supervision"],
-          duration: "24 Days",
+          duration: "21 Days",
           ages: "Ages 9-17", 
           price: "NTD $140,000"
         }
@@ -75,7 +75,7 @@ const HomePage: React.FC<HomePageProps> = ({ language }) => {
           title: "Bodwell高中課程",
           description: "在擁有最先進設施和個人化照護的著名寄宿學校學習。",
           features: ["寄宿學校體驗", "學術英語課程", "海濱校園", "24小時監護"],
-          duration: "24天",
+          duration: "21天",
           ages: "9-17歲",
           price: "NTD $140,000"
         }

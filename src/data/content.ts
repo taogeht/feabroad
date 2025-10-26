@@ -7,7 +7,7 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
       subtitle: "Join Taiwanese students for an incredible journey of learning, adventure, and friendship at one of Canada's top universities.",
       enrollButton: "Enroll Now",
       learnMoreButton: "Learn More",
-      dates: "July 6 - July 29",
+      dates: "July 4 - August 2",
       ages: "Ages 9-17",
       location: "Vancouver, BC"
     },
@@ -23,7 +23,7 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
         university: { title: "University Experience", description: "Live and learn on one of Canada's most beautiful campuses" }
       },
       details: {
-        dates: { title: "Camp Dates", date: "July 6 - July 29, 2024", duration: "24 incredible days" },
+        dates: { title: "Camp Dates", date: "July 4 - August 2, 2026", duration: "30 incredible days" },
         ages: { title: "Age Range", range: "Ages 9-17", note: "All skill levels welcome" },
         location: { title: "Location", place: "UBC Campus, Vancouver", region: "Beautiful British Columbia" }
       }

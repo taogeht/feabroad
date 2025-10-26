@@ -217,7 +217,7 @@ const BodwellPage: React.FC<BodwellPageProps> = ({ language }) => {
             alt="Bodwell High School"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-green-600/80 via-blue-500/70 to-green-800/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-red-800/80 to-blue-900/90"></div>
         </div>
 
         <div className="absolute top-24 right-8 z-10 opacity-20">
@@ -271,7 +271,7 @@ const BodwellPage: React.FC<BodwellPageProps> = ({ language }) => {
       </section>
 
       {/* Overview Section */}
-      <section className="py-20 bg-gradient-to-br from-green-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
@@ -288,7 +288,7 @@ const BodwellPage: React.FC<BodwellPageProps> = ({ language }) => {
                 key={index}
                 className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-blue-500 rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-red-600 rounded-2xl flex items-center justify-center mb-6">
                   <School className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{highlight.title}</h3>
@@ -345,7 +345,7 @@ const BodwellPage: React.FC<BodwellPageProps> = ({ language }) => {
       </section>
 
       {/* Schedule Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 to-green-50">
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
@@ -363,8 +363,8 @@ const BodwellPage: React.FC<BodwellPageProps> = ({ language }) => {
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
                 {/* Morning Routine */}
-                <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-6 shadow-lg border border-blue-100">
-                  <div className="bg-gradient-to-r from-blue-400 to-green-400 text-white text-center py-3 rounded-xl font-bold text-lg mb-4">
+                <div className="bg-gradient-to-br from-blue-50 to-red-50 rounded-2xl p-6 shadow-lg border border-blue-100">
+                  <div className="bg-gradient-to-r from-blue-500 to-red-500 text-white text-center py-3 rounded-xl font-bold text-lg mb-4">
                     {language === 'zh' ? '早晨例行活動' : 'Morning Routine'}
                   </div>
                   <div className="space-y-3">
@@ -405,8 +405,8 @@ const BodwellPage: React.FC<BodwellPageProps> = ({ language }) => {
                 </div>
 
                 {/* School Activities */}
-                <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-6 shadow-lg border border-blue-100">
-                  <div className="bg-gradient-to-r from-blue-400 to-green-400 text-white text-center py-3 rounded-xl font-bold text-lg mb-4">
+                <div className="bg-gradient-to-br from-blue-50 to-red-50 rounded-2xl p-6 shadow-lg border border-blue-100">
+                  <div className="bg-gradient-to-r from-blue-500 to-red-500 text-white text-center py-3 rounded-xl font-bold text-lg mb-4">
                     {language === 'zh' ? '學校活動' : 'School Activities'}
                   </div>
                   <div className="space-y-3">
@@ -565,7 +565,7 @@ const BodwellPage: React.FC<BodwellPageProps> = ({ language }) => {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-50 to-green-50">
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
@@ -577,8 +577,8 @@ const BodwellPage: React.FC<BodwellPageProps> = ({ language }) => {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-gradient-to-r from-blue-400 to-green-400">
-              <div className="bg-gradient-to-r from-blue-500 to-green-500 px-8 py-6">
+            <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-gradient-to-r from-blue-600 to-red-600">
+              <div className="bg-gradient-to-r from-blue-600 to-red-600 px-8 py-6">
                 <div className="flex items-center justify-center gap-3 text-white">
                   <Star className="w-8 h-8" />
                   <h3 className="text-2xl font-bold">
