@@ -682,7 +682,7 @@ const UBCPage: React.FC<UBCPageProps> = ({ language }) => {
                     <span className="text-lg font-semibold text-gray-700">{t.pricing.dates}</span>
                   </div>
                   <div className="flex items-baseline justify-center gap-2">
-                    <span className="text-5xl font-bold text-gray-900">NTD $210,000</span>
+                    <span className="text-5xl font-bold text-gray-900">NTD $220,000</span>
                     <span className="text-xl text-gray-600">/ {language === 'zh' ? '人' : 'person'}</span>
                   </div>
                 </div>

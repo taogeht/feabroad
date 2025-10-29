@@ -2,6 +2,14 @@ import { LanguageContent } from '../types/language';
 
 export const content: Record<'en' | 'zh', LanguageContent> = {
   en: {
+    header: {
+      title: 'FEA Frontline Education Abroad',
+      subtitle: 'Vancouver Study Abroad Experts',
+      home: 'Home',
+      ubc: 'UBC Summer Camp',
+      bodwell: 'Bodwell School',
+      media: 'Photos & Videos',
+    },
     hero: {
       title: "Experience an Unforgettable Summer at UBC, Canada!",
       subtitle: "Join Taiwanese students for an incredible journey of learning, adventure, and friendship at one of Canada's top universities.",
@@ -136,13 +144,24 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
       }
     },
     footer: {
+      title: 'FEA Education',
+      subtitle: 'Vancouver Study Experts',
       description: "Creating unforgettable summer experiences for Taiwanese students at one of Canada's most prestigious universities for over 15 years.",
       contactTitle: "Contact Information",
       email: "info@feabroad.com",
-      qrCode: "line_code.png"
+      qrCode: "line_code.png",
+      qrCodeTitle: 'Scan QR Code to Contact Us',
     }
   },
   zh: {
+    header: {
+      title: 'FEA 頂尖海外教育',
+      subtitle: '溫哥華留學專家',
+      home: '首頁',
+      ubc: 'UBC夏令營',
+      bodwell: 'Bodwell學校',
+      media: '照片影片',
+    },
     hero: {
       title: "在加拿大UBC度過難忘的夏天！",
       subtitle: "與來自台灣的學生一起，在加拿大頂尖大學展開學習、冒險和友誼的精彩旅程。",
@@ -277,10 +296,13 @@ export const content: Record<'en' | 'zh', LanguageContent> = {
       }
     },
     footer: {
+      title: 'FEA 頂尖海外教育',
+      subtitle: '溫哥華留學專家',
       description: "15年來為台灣學生在加拿大最負盛名的大學之一創造難忘的夏季體驗。",
       contactTitle: "聯絡資訊",
       email: "info@feabroad.com",
-      qrCode: "line_code.png"
+      qrCode: "line_code.png",
+      qrCodeTitle: '掃描QR Code聯絡我們',
     }
   }
 };

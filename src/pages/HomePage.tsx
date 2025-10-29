@@ -26,14 +26,14 @@ const HomePage: React.FC<HomePageProps> = ({ language }) => {
           features: ["University Campus Living", "15 Hours English Classes/Week", "Outdoor Adventures", "Cultural Immersion"],
           duration: "30 Days",
           ages: "Ages 9-17",
-          price: "NTD $210,000"
+          price: "NTD $220,000"
         },
         bodwell: {
           title: "Bodwell High School Program",
           description: "Study at a prestigious boarding school with state-of-the-art facilities and personalized care.",
           features: ["Boarding School Experience", "Academic English Program", "Waterfront Campus", "24/7 Supervision"],
           duration: "21 Days",
-          ages: "Ages 9-17", 
+          ages: "Ages 9-18", 
           price: "NTD $140,000"
         }
       },
@@ -69,14 +69,14 @@ const HomePage: React.FC<HomePageProps> = ({ language }) => {
           features: ["大學校園生活", "每週15小時英語課程", "戶外冒險", "文化沉浸"],
           duration: "30天",
           ages: "9-17歲",
-          price: "NTD $210,000"
+          price: "NTD $220,000"
         },
         bodwell: {
           title: "Bodwell高中課程",
           description: "在擁有最先進設施和個人化照護的著名寄宿學校學習。",
           features: ["寄宿學校體驗", "學術英語課程", "海濱校園", "24小時監護"],
           duration: "21天",
-          ages: "9-17歲",
+          ages: "9-18歲",
           price: "NTD $140,000"
         }
       },
